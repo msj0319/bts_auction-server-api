@@ -1,5 +1,7 @@
 spring:
   application:
     name: bts-auction-producer
-  server:
-    port: 9090
+kafka:
+  groupId: nft-auction-group
+server:
+  port: 9090
