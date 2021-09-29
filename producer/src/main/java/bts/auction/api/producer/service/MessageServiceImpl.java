@@ -19,6 +19,8 @@ public class MessageServiceImpl implements MessageService {
     @Value("${kafka.topic}")
     String topic;
 
+    //Controller 에서 nft_id와 email(회원), auctionPrice(현재 호가)를 받아
+    //각각을 topic name, key, value로 하여 퍼블리싱
     @Override
     public Mono<String> send(String topic, String key, Object value) {
         this.topic = topic;

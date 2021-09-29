@@ -6,7 +6,7 @@ plugins {
 
 group = 'bts.auction.api'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '1.8'
+sourceCompatibility = '11'
 
 repositories {
 	mavenCentral()
@@ -19,6 +19,10 @@ dependencies {
 	implementation "io.projectreactor.kafka:reactor-kafka:1.2.2.RELEASE"
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
+
+	//Swagger 3
+	implementation 'io.springfox:springfox-boot-starter:3.0.0'
+
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
