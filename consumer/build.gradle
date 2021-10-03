@@ -17,8 +17,11 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive:2.5.4'
 	implementation 'org.apache.commons:commons-lang3:3.8.1'
 	implementation 'org.apache.commons:commons-collections4:4.0'
-
 	implementation 'org.springframework.kafka:spring-kafka'
+
+	//Swagger 3
+	implementation 'io.springfox:springfox-boot-starter:3.0.0'
+
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
