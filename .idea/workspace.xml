@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d51d2db-1024-4e2b-9d63-deef03f9f606" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/consumer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/bts/auction/api/consumer/config/KafkaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/bts/auction/api/consumer/config/KafkaConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/bts/auction/api/consumer/config/SseConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/bts/auction/api/consumer/config/WebFluxConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/bts/auction/api/consumer/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/bts/auction/api/consumer/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/bts/auction/api/consumer/service/KafkaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/bts/auction/api/consumer/service/KafkaServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/bts/auction/api/consumer/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/bts/auction/api/consumer/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/bts/auction/api/consumer/service/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/bts/auction/api/consumer/service/MessageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/bts/auction/api/producer/config/KafkaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/bts/auction/api/producer/config/KafkaConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/bts/auction/api/producer/controller/AuctionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/bts/auction/api/producer/controller/AuctionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/bts/auction/api/producer/service/KafkaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/bts/auction/api/producer/service/KafkaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/bts/auction/api/producer/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/bts/auction/api/producer/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/bts/auction/api/producer/service/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/bts/auction/api/producer/service/MessageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1yzuosUntufm5S26cSPfKm5WLA0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d51d2db-1024-4e2b-9d63-deef03f9f606" name="Changes" comment="" />
+      <created>1633266921484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633266921484</updated>
+      <workItem from="1633266925240" duration="9000" />
+    </task>
+    <servers />
+  </component>
+</project>

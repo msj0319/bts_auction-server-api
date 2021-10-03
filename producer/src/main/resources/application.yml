@@ -1,7 +1,11 @@
 spring:
   application:
-    name: bts-auction-producer
-kafka:
-  groupId: nft-auction-group
+    name: auction-producer
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/bts-auction-db
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
 server:
   port: 9090

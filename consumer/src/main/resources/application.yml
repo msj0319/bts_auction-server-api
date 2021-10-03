@@ -1,14 +1,11 @@
 spring:
-  kafka:
-    admin:
-      properties:
-        spring:
-          json:
-            value.default.type: bts.auction.api.consumer.domain.Message
-kafka:
-  topic: 1A2B3C4D
-  groupId: nft-auction-group
   application:
-    name: bts-auction-consumer
+    name: auction-consumer
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/bts-auction-db
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
 server:
-  port: 9092
+  port: 9091
